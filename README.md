@@ -73,7 +73,10 @@
 
     ---
 
-    ### After successfull installation of pyenv and python clone the repository into your local machine.
+    ### After successfull installation of pyenv and python clone the branch feature/develop into your local machine.
+    ```sh 
+    $ git clone --single-branch --branch feature/develop https://github.com/KaushikGarkoti/dostadmin.git
+    ```
     
 
 
